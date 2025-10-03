@@ -1,7 +1,7 @@
 # app.py
 import streamlit as st
 from datetime import datetime
-from src.services.viber_service import ViberService
+from viber_service import ViberService
 from src.services.thought_service import ThoughtService
 from src.services.post_service import PostService
 from src.services.reverberation_service import ReverberationService
